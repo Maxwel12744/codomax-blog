@@ -6,8 +6,11 @@ const Home = () => (
   <>
     <section className="hero">
       <div className="container">
-        <h1>Technology, ideas and knowledge in one place</h1>
-        <p>Read articles from writers around the world, or publish your own.</p>
+        <h1>Learn, build and share ideas from around the world</h1>
+        <p>
+          Stories and lessons from a developer's journey, written to help other
+          beginners grow.
+        </p>
         <div className="hero-actions">
           <Link to="/explore" className="btn">
             Explore Articles
