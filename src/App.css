@@ -84,3 +84,85 @@
 .form button:hover {
   background: #444;
 }
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.new-blog-btn {
+  background: #222;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.new-blog-btn:hover {
+  background: #444;
+}
+
+.dashboard-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.dashboard-item {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.dashboard-item h3 {
+  margin: 0 0 5px 0;
+}
+
+.dashboard-item .blog-meta {
+  margin: 0;
+}
+
+.dashboard-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.dashboard-actions button {
+  background: #222;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.dashboard-actions .delete-btn {
+  background: #c0392b;
+}
+
+.status {
+  font-size: 0.8rem;
+  padding: 4px 10px;
+  border-radius: 12px;
+}
+
+.status.published {
+  background: #d4edda;
+  color: #1e7e34;
+}
+
+.status.draft {
+  background: #fff3cd;
+  color: #856404;
+}
