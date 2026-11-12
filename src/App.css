@@ -250,6 +250,7 @@
   height: 170px;
   object-fit: cover;
   display: block;
+  object-position: center top;
 }
 .card-body {
   padding: 18px;
