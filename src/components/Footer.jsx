@@ -9,7 +9,7 @@ const Footer = () => (
         </Link>
         <p>Technology, Innovation and Ideas.</p>
       </div>
-      <p>© 2026 . All rights reserved.</p>
+      <p>© 2026 Odhiambo Maxwel. All rights reserved.</p>
     </div>
   </footer>
 );
