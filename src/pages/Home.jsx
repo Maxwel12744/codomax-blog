@@ -5,7 +5,7 @@ import HeroCarousel from "../components/HeroCarousel";
 
 const Home = () => (
   <>
-    <section className="hero">
+    <section className="HeroCarousel">
       <div className="container">
         <h1>Learn, build and share ideas from around the world</h1>
         <p>
@@ -21,7 +21,7 @@ const Home = () => (
           </Link>
         </div>
       </div>
-    </section>
+    <HeroCarousel />
 
     <section className="section">
       <div className="container">
