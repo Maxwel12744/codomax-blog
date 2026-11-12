@@ -1,26 +1,11 @@
 import { Link } from "react-router-dom";
+import HeroCarousel from "../components/HeroCarousel";
 import BlogCard from "../components/BlogCard";
 import { articles, featured, categories } from "../data/articles";
 import HeroCarousel from "../components/HeroCarousel";
 
 const Home = () => (
   <>
-    <section className="HeroCarousel">
-      <div className="container">
-        <h1>Learn, build and share ideas from around the world</h1>
-        <p>
-          Stories and lessons from a developer's journey, written to help other
-          beginners grow.
-        </p>
-        <div className="hero-actions">
-          <Link to="/explore" className="btn">
-            Explore Articles
-          </Link>
-          <Link to="/register" className="btn btn-light">
-            Create Account
-          </Link>
-        </div>
-      </div>
     <HeroCarousel />
 
     <section className="section">
