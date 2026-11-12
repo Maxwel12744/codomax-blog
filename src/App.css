@@ -180,10 +180,12 @@
   margin-top: 22px;
 }
 .featured-img {
+  display: block;
   width: 100%;
-  height: 100%;
-  min-height: 260px;
+  height: 0;
+  min-height: 100%;
   object-fit: cover;
+  object-position: center;
 }
 .featured-text {
   padding: 32px;
@@ -554,7 +556,8 @@
     grid-template-columns: 1fr;
   }
   .featured-img {
-    min-height: 200px;
+    height: 220px;
+    min-height: 0;
   }
   .featured-text {
     padding: 22px;
