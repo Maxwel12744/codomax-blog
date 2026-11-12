@@ -3,7 +3,7 @@ export const featured = {
   title: "From Zero to Deployed: What I Learned as a Computer Science Intern",
   excerpt:
     "Starting a virtual internship felt overwhelming at first. By building one small page at a time and pushing every change to GitHub, I turned a blank folder into a working blog application.",
-
+  image: "/images/featured.jpg",
   gradient: "linear-gradient(135deg, #4338ca, #7c3aed)",
 };
 
