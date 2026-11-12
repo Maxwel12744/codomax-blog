@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import HeroCarousel from "../components/HeroCarousel";
 import BlogCard from "../components/BlogCard";
 import { articles, featured, categories } from "../data/articles";
-import HeroCarousel from "../components/HeroCarousel";
 
 const Home = () => (
   <>
