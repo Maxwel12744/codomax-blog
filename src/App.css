@@ -202,3 +202,40 @@
     align-items: flex-start;
   }
 }
+img,
+input,
+textarea {
+  max-width: 100%;
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    gap: 10px 14px;
+    padding: 12px;
+    font-size: 0.95rem;
+  }
+
+  .navbar .brand {
+    font-size: 1.15rem;
+  }
+
+  .hero {
+    padding: 30px 15px;
+  }
+
+  .hero h1 {
+    font-size: 1.5rem;
+  }
+
+  .page h2 {
+    font-size: 1.3rem;
+  }
+
+  .blog-card {
+    padding: 15px;
+  }
+
+  .dashboard-actions {
+    flex-wrap: wrap;
+  }
+}
