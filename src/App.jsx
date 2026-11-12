@@ -6,6 +6,7 @@ import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Dashboard from "./pages/Dashboard";
 import CreateBlog from "./pages/CreateBlog";
+import "./App.css";
 
 function App() {
   return (
