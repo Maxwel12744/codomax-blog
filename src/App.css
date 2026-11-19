@@ -1,0 +1,32 @@
+/* ---------- Login state in the navbar ---------- */
+.nav-user {
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: var(--text-muted);
+}
+
+.nav-logout {
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  padding: 6px 14px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  font-family: inherit;
+  cursor: pointer;
+  transition:
+    border-color 0.2s,
+    color 0.2s;
+}
+
+.nav-logout:hover {
+  border-color: var(--primary);
+  color: var(--link);
+}
+
+/* ---------- Buttons that are busy ---------- */
+button:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+}
